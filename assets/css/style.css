@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron{
+	font-family: sans-serif;
+    margin-bottom: 0;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0;
+    background-position: 0,700px;
+    overflow: hidden;
+    text-shadow: 5px 5px black;
+}
+
+.kepala{
+	margin-top: 65px;
+}
+
+.bawah{
+	margin-bottom: 10px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.daptar{
+	margin-bottom: 65px;
+}
+
+#error {
+	background-color: black;
+	font-weight: bold;
+	color: red;
+}
+
+.fotodokumentasi{
+	max-width: 400px;
+}
+
+.ttd{
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+.colttd{
+	width: 550px;
+}
+
+.tabeldaftarpengaduan{
+    font-size: 14px;
+}
+
+@media print{
+	@page{
+		margin: 0 auto;
+	}
+
+	.ttd{
+		display: inline;
+	}
+}
+
+/*kalau kecil*/
+@media screen and (max-width: 880px){
+	.sepasinav {
+		display: none;
+	}
+
+	.sipppamtitle {
+		display: none;
+	}
+
+	.daftaraduantitel {
+		display: none;
+	}
+}
+
+/*kalau besar*/
+@media screen and (min-width: 880px){
+	.sipppamtitles {
+		display: none;
+	}
+}
